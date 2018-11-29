@@ -49,4 +49,4 @@ Fastai v1.0 requires linux because it uses pytorch v1.0
 `pipenv run pip install torch_nightly -f https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html`
 `pipenv instal fastai`
 
-(the above works, although `pipenv lock` fails)
+(the above works, although `pipenv lock` fails).
