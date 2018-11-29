@@ -25,7 +25,7 @@ First we download [GDC case manifest](https://portal.gdc.cancer.gov/legacy-archi
 Then extract the files that are relevant
 `cut -d$'\t' -f 2 gdc_manifest.txt | grep -E '\.*-DX[^-]\w*.'1`
 
-Then use the [GDC api](https://gdc.cancer.gov/developers/gdc-application-programming-interface-api) to download the relevant images
+Then use the [GDC api](https://docs.gdc.cancer.gov/API/Users_Guide/Python_Examples/) to download the relevant images
 
 Then curate the images manually or with the script provided in the docker
 
